@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+    background: rgb(8, 8, 8);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+    .card {
+    width: 350px;
+    height: 500px;
+    text-shadow: 3px 3px 3px #0a0a0a;   /*zahid*/
+    box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0.26);
+  }
+  .card-2 {
+    width: 350px;
+    height: 600px;
+    box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0.26);
+  }
+  .card-3 {
+    width: 350px;
+    height: 500px;
+    box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0.26);
+  }
+  .inner-box {
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+  .card-front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    border-radius: 100%;                             /* Zahid*/
+    background-size: cover;
+    background-color: rgb(5, 103, 116);            /* Zahid*/
+    padding: 55px;
+    box-sizing: border-box;
+    backface-visibility: hidden;
+  }
+  
+  .card h2, .card-2 h2 {
+    border: 1px dotted rgb(249, 245, 245); 
+    border-width: 5px;
+    border-color:rgb(244, 9, 189);
+    border-radius: 20px;
+    color:rgb(9, 204, 243);
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .card-3 h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .input-box {
+    width: 100%;
+    background: transparent;
+    border: 1px solid rgb(9, 250, 69);            /* Zahid*/
+    margin: 6px 0px;
+    height: 32px;
+    border-radius: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+    color: rgb(248, 248, 248);
+  }
+
+  .input-box {
+    box-shadow:  0px 5px 5px;
+    color:black;
+       }                                            /* Zahid*/                                                      /* Zahid*/
+
+  ::placeholder {
+    color: #fff;
+    font-size: 16px;
+  }
+  button {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #fff;
+    margin: 25px 0 10px;
+    height: 32px;
+    font-size: 16px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+  }
+   
+  span {
+      font-size: 13px;
+      margin-left: 10px;
+    }
+  .btn {
+    background: rgb(49, 30, 255);
+  }
+  .btn {
+    box-shadow:  0px 5px 5px;
+    }                                                 /* Zahid*/
+  .btn:hover {
+   background-color: rgb(234, 9, 181);
+   color: white;
+  }                                                   /* Zahid*/
+  button a {
+      color: #fff;
+      text-decoration: none;
+      text-align: center;
+      font-size: 16px;
+      margin-top: 8px;
+    }
+
+    a.highlight:hover {
+      color: #ff0000;
+      font-size: 25px;
+    }                                                 /* zahid*/
+    p {
+      display:none;
+      background-color: yellow;
+      padding: 20px;
+      text-align:center; color:red;
+    }
+    
+    div:hover p {
+      display: block;
+    }
+  .common-btn {
+      background: tomato;
+      box-shadow:  0px 5px 5px;
+      color: rgb(11, 11, 11);
+    }                                                 /* Zahid*/
+  .common-btn:hover {
+    background-color: navy;
+    color: white;
+   }                                                 /* Zahid*/
+  
